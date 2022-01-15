@@ -1,6 +1,6 @@
 name: GitHub Actions Demo
 env:
-  PROJECT_ID: ${{ secret.GCP_PROJECT }}
+  PROJECT_ID: ${{ secrets.GCP_PROJECT }}
   REGION: us-east1
   SERVICE: nextjs
 on: [push]
