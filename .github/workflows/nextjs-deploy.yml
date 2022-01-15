@@ -12,6 +12,6 @@ jobs:
     - name: 'Deploy to Cloud Run'
       uses: 'google-github-actions/deploy-cloudrun@v0'
       with:
-        region: us-east-1
+        region: us-east1
         image: 'gcr.io/gcp-hackathon-338316/nextjs'
         service: 'nextjs'
